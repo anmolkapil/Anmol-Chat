@@ -1,0 +1,8 @@
+.message-list {
+  overflow: scroll;
+  background-color: white;
+  height: calc(100% - 150px);
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+}

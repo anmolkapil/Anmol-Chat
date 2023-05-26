@@ -1,0 +1,81 @@
+span {box-sizing: border-box;}
+
+.sender {
+  font-weight: 600;
+}
+
+.text {
+  position: relative; /* Setup a relative container for our psuedo elements */
+  max-width: 255px;
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  line-height: 24px;
+  word-wrap: break-word; /* Make sure the text wraps to multiple lines if long */
+  border-radius: 25px;
+}
+
+.text:before {
+  width: 20px;
+  position: absolute;
+  bottom: 0;
+  height: 25px; /* height of our bubble "tail" - should match the border-radius above */
+  content: '';
+}
+
+.text:after {
+  width: 26px;
+  background-color: white; /* All tails have the same bg cutout */
+  position: absolute;
+  bottom: 0;
+  height: 25px; /* height of our bubble "tail" - should match the border-radius above */
+  content: '';
+}
+
+.received {
+  align-self: flex-start;
+  color: black;
+  background-color: rgb(229,229,234);
+}
+
+.received:before {
+  left: -7px;
+  background-color: rgb(229,229,234);
+  border-bottom-right-radius: 16px 14px;
+}
+
+.received:after {
+  left: -26px;
+  border-bottom-right-radius: 10px;
+}
+
+.sent {
+  align-self: flex-end;
+  color: white;
+  background-color: rgb(50,130,250);
+  
+}
+
+.sent:before {
+  right: -7px;
+  background-color: rgb(50,130,250);
+  border-bottom-left-radius: 16px 14px;
+}
+
+.sent:after {
+  right: -26px;
+  border-bottom-left-radius: 10px;
+}
+
+.noTail {
+  margin-bottom: 2px;
+
+
+}
+
+.noTail:before {
+  opacity: 0;
+}
+
+.noTail:after {
+  opacity: 0;
+}

@@ -1,0 +1,31 @@
+.chat {
+  margin-bottom: 1em;
+  font-size: 0.8em;
+  background-color: white;
+  padding: 1em;
+  border-radius: 1em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.highlight {
+  background-color: rgb(134, 173, 221);
+}
+
+.profile {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.profile img {
+  margin-right: 1em;
+  border-radius: 50%;
+  width: 40px;
+}
+
+.name {
+  font-weight: 600;
+}

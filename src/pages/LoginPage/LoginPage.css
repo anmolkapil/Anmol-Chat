@@ -1,0 +1,19 @@
+.loginPage {
+  background-color: rgb(240, 245, 254);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginContainer {
+  box-shadow: 0.5em 0.5em 1em grey;
+  padding: 2em;
+  background-color: white;
+  border-radius: 1em;
+}
+
+h1 {
+  margin-bottom: 1em;
+  text-align: center;
+}

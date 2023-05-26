@@ -1,0 +1,44 @@
+.chatBox {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  
+}
+
+.photo {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.chatUser {
+  align-items: center;
+  margin-left: 2em;
+  border-bottom: 1px solid rgb(235,237,242);
+  font-weight: 600;
+  display: flex;
+  height: 75px;
+  background-color: rgb(240,245,250);
+  justify-content: space-between;
+}
+
+.photoname {
+  display: flex;
+  align-items: center;
+}
+
+.chatname {
+  margin-left: 1em;
+  
+}
+
+.leaveButton {
+  margin-right: 2em;
+  font-size: 1em;
+  padding: 1em;
+  border-radius: 1em;
+  color: white;
+  background-color: lightcoral;
+  height: 50px;
+  border: none;
+  outline: none;
+}

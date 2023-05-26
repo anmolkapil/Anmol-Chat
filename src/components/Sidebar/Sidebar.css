@@ -1,0 +1,132 @@
+.userBox {
+  margin-bottom: 1em;
+  font-size: 0.8em;
+  background-color: white;
+  padding: 1em;
+  border-radius: 1em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.userBox img {
+  margin-right: 1em;
+  border-radius: 50%;
+  width: 40px;
+}
+
+.userName {
+  font-weight: 600;
+}
+
+.userBox button {
+  border: none;
+  border-radius: 1em;
+  padding: 1em;
+}
+
+.roomsView {
+  height: calc(100vh - 160px);
+  overflow: scroll;
+}
+
+
+.createButton {
+  font-size: 1em;
+  padding: 1em;
+  border-radius: 1em;
+  color: white;
+  background-color: rgb(50,130,250);
+  height: 50px;
+  border: none;
+  outline: none;
+}
+
+
+
+
+
+
+
+
+.sidebar-right {
+  padding: 1em;
+  min-width: 300px;
+
+}
+
+.userlogged {
+  margin: 1em;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logged {
+  border-radius: 50%;
+  width: 40px !important;
+}
+
+.top {
+  height: 75px;
+  background-color: grey;
+}
+
+.leftBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(240,245,250);
+  border-right: 1px solid rgb(235,237,242);
+}
+
+.active {
+  background-color: rgb(50,130,250) !important;
+}
+
+.leftBar img {
+  width: 20px;
+}
+
+.userlogged img {
+  width: 20px;
+}
+
+.icons button {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 1em;
+  background-color: white;
+  padding: 1em;
+  margin: 1em;
+}
+
+
+.logout {
+  color: white;
+  font-weight: 600;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 1em;
+  background-color: lightcoral;
+  margin: 1em;
+}
+
+.sidebar {
+  display: flex;
+  background-color: rgb(250,250,255);
+  border-right: 1px solid rgb(235,237,242);;
+}
